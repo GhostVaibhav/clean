@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Anton";
+    src: url("./fonts/Anton.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("./fonts/Inter.ttf");
+}
+
+* {
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.font-title {
+    font-family: "Anton", sans-serif;
+}
