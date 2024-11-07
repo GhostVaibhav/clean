@@ -21,3 +21,37 @@
 .font-title {
     font-family: "Anton", sans-serif;
 }
+
+.console-regular {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.console-bold {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.console-regular-italic {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.console-bold-italic {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.non {
+    pointer-events: none;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
